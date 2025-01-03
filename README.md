@@ -45,9 +45,7 @@ Um navegador atualizado.
 Servidor HTTP simples (opcional, para evitar problemas com caminhos relativos das imagens).
 📦 Como Utilizar
 Clone este repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/alura-plus-landing-page.git
+git clone [(https://github.com/kauanvyp/projeto-plataforma.git)]
 Abra o arquivo index.html no navegador.
 📄 Licença
 Este projeto é apenas para fins educacionais e não está associado oficialmente à Alura.
