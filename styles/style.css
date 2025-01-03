@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --cor-fundo: #00030C;
+    --branco-principal: #FFFFFF;
+    --cor-cinza: #C0C0C0;
+    --botao-azul: #167BF7;
+    --fonte-principal: "Inter";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+}
+
+
+.container__botao{
+    background-color: var(--botao-azul);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    color:var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+}
+
+.container__aviso{
+    color: var(--cor-cinza);
+    font-size: 12px;
+    text-align: center;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+
+.container__caixa{
+    margin: 0 6em;
+    align-items: center;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 12em;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.container__assistir{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.container__texto{
+    font-size: 16px;
+    color: var(--cor-cinza);
+}
+
+.container__botao__secundario{
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.container__secundario__texto{
+    font-size: 16px;
+    color: var(--cor-cinza);
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    color:var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens horizontalmente ao centro */
+    justify-content: center; /* Alinha os itens verticalmente ao centro */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px;
+    color: var(--branco-principal);
+    background-color: var(--cor-fundo); /* Certifique-se de que o fundo combina com o resto do design */
+}
+
+.logo {
+    margin-bottom: 10px;
+}
+
+.navegacao__lista{
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar para a próxima linha em telas menores */
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0; /* Espaçamento superior e inferior */
+    gap: 15px;
+    color: var(--cor-cinza);
+}
+
+.navegacao__lista__clique{
+    text-decoration: none;
+    color: var(--branco-principal); /* Mantém o texto visível */
+}
+
+.navegacao__lista__clique:hover{
+    color: var(--cor-cinza);
+}
+
+.paragrafo{
+    margin-top: 20px;
+    font-size: 14px; /* Ajusta o tamanho do texto */
+    color: var(--cor-cinza); /* Dá um contraste mais leve */
+    line-height: 1.6; /* Aumenta o espaço entre as linhas */
+}
